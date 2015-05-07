@@ -1,4 +1,6 @@
 
+library("MoBrownie");
+
 delta  = 1/32;
 t.seq  = seq(1,100, delta);  
 
