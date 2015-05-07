@@ -8,12 +8,14 @@ y.t = brownian.motion(t.seq, sigma2 = sigma2);
 my.bm.plot( x.t, y.t);
 
 
+## sample a 2d brownian motion
 brownian.motion <- function( time.seq, mu = 0, sigma2 = 1){
     x.t = rnorm(n = length(t.seq), mean = mu, sd = sqrt(sigma2));
     x.t = cumsum(x.t);
     return(x.t);
 }
 
+## plotting
 my.bm.plot  <- function(x, y){
     y.bound = max( abs(y)) + 1;
     x.bound = max( abs(x)) + 1;
