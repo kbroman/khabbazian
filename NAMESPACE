@@ -1,0 +1,2 @@
+export(get.bm)
+export(plot.bm)
