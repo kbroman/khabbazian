@@ -1,7 +1,7 @@
 Package: MoBrownie 
-Version: 0.1
+Version: 1.0
 Author: Mohammad Khabbazian 
-Maintainer: Mohammad Khabbazian <khabbazian@wisc.edu >
+Maintainer: Mohammad Khabbazian <khabbazian@wisc.edu>
 License: GPL (>= 2)
 Title: fun with BM OU processes 
 Description: A handy package to generate and plots BM and OU processes 
