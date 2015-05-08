@@ -18,6 +18,6 @@ x.t a series of numbers
 generate a sample 2d Brownian motion (BM)
 }
 \examples{
-get.bm(1:10)
+get.bm(c(1,2,3,4))
 }
 

@@ -8,7 +8,7 @@
 #'@export
 #'
 #'@examples
-#'get.bm(1:10)
+#'get.bm(c(1,2,3,4))
 #' 
 get.bm <- function( time.seq, mu = 0, sigma2 = 1){
     ## the variance has to be postive
