@@ -1,0 +1,36 @@
+## MoBronie Package
+
+Author: Mohammad Khabbazian 
+
+```{r knitr_options, include=FALSE}
+library(knitr)
+opts_chunk$set(fig.width=13, fig.height=5, fig.path='Figs/')
+```
+
+
+### Sample Code to Generate 2D BM and plot
+
+Let's set up some variables.
+
+```{r}
+library("MoBrownie");
+set.seed(123);
+delta  = 1/32;
+t.seq  = seq(1,100, delta);  
+sigma2 = 0.001;
+```
+
+Now calling the bm function
+
+```{r}
+x.t = get.bm(t.seq, sigma2 = sigma2);
+y.t = get.bm(t.seq, sigma2 = sigma2);
+```
+
+The output is:
+
+```{r}
+plot.bm( x.t, y.t);
+```
+
+
