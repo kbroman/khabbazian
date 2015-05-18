@@ -4,23 +4,27 @@
 \alias{plot.bm}
 \title{plot a 2D Brownian motion (BM)}
 \usage{
-\method{plot}{bm}(x, y)
+\method{plot}{bm}(x, y, ...)
 }
 \arguments{
 \item{x}{input x axis}
 
 \item{y}{input y axis}
+
+\item{...}{extra arguments to be passed to plot}
+}
+\value{
+none
 }
 \description{
 plot a 2D Brownian motion (BM)
 }
 \examples{
-delta  = 1/32;
-t.seq  = seq(1,100, delta);
-
-sigma2 = 0.001;
-x.t = get.bm(t.seq, sigma2 = sigma2);
-y.t = get.bm(t.seq, sigma2 = sigma2);
-plot.bm( x.t, y.t);
+delta  = 1/32
+t.seq  = seq(1, 100, delta)
+sigma2 = 0.001
+x.t    = get.bm(t.seq, sigma2 = sigma2)
+y.t    = get.bm(t.seq, sigma2 = sigma2)
+plot.bm(x.t, y.t)
 }
 

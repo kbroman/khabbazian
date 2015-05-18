@@ -9,7 +9,9 @@ get.bm(time.seq, mu = 0, sigma2 = 1)
 \arguments{
 \item{time.seq}{input time sequence.}
 
-\item{mu}{expected value of BM or the starting value.}
+\item{mu}{input expected value of BM or the starting value.}
+
+\item{sigma2}{input variance}
 }
 \value{
 x.t a series of numbers

@@ -30,7 +30,7 @@ y.t = get.bm(t.seq, sigma2 = sigma2);
 The output is:
 
 ```{r}
-plot.bm( x.t, y.t);
+plot.bm(x.t, y.t);
 ```
 
 
