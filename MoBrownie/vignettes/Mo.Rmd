@@ -23,14 +23,14 @@ sigma2 = 0.001;
 Now calling the bm function
 
 ```{r}
-x.t = get.bm(t.seq, sigma2 = sigma2);
-y.t = get.bm(t.seq, sigma2 = sigma2);
+x.t = get_bm(t.seq, sigma2 = sigma2);
+y.t = get_bm(t.seq, sigma2 = sigma2);
 ```
 
 The output is:
 
 ```{r}
-plot.bm(x.t, y.t);
+plot_bm(x.t, y.t);
 ```
 
 
