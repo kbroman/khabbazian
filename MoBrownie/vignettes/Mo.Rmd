@@ -1,6 +1,12 @@
-## MoBronie Package
-
-Author: Mohammad Khabbazian 
+---
+title: MoBronie Package
+author: Mohammad Khabbazian
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Put the title of your vignette here}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8](inputenc)
+---
 
 ```{r knitr_options, include=FALSE}
 library(knitr)
@@ -16,7 +22,7 @@ Let's set up some variables.
 library("MoBrownie");
 set.seed(123);
 delta  = 1/32;
-t.seq  = seq(1,100, delta);  
+t.seq  = seq(1,100, delta);
 sigma2 = 0.001;
 ```
 
@@ -32,5 +38,3 @@ The output is:
 ```{r}
 plot_bm(x.t, y.t);
 ```
-
-
