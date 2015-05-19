@@ -4,7 +4,7 @@ Author: Mohammad Khabbazian
 Maintainer: Mohammad Khabbazian <khabbazian@wisc.edu>
 License: GPL (>= 2)
 Title: fun with BM OU processes 
-Description: A handy package to generate and plots BM and OU processes 
+Description: A handy package to generate and plot BM and OU processes 
 URL: https://github.com/khabbazian/BrownianMotion
 VignetteBuilder: knitr
 Suggests: knitr, testthat
