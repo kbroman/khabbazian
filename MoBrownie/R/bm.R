@@ -41,9 +41,11 @@ plot_bm  <- function(x, y, ...){
 #'@export
 get_bm <- function(time_seq, mu = 0, sigma2 = 1){
     ## the variance has to be postive
-    stopifnot( sigma2 > 0);
-    ## at leat one time point is required
-    stopifnot( length(time_seq) > 0 );
+    stopifnot( sigma2 >= 0);
+
+    if(length(time_seq)==0){
+        return(numeric());
+    }
 
     x_t = rnorm(n = length(time_seq), mean = mu, sd = sqrt(sigma2));
     x_t = cumsum(x_t);

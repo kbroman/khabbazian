@@ -7,4 +7,4 @@ Title: fun with BM OU processes
 Description: A handy package to generate and plots BM and OU processes 
 URL: https://github.com/khabbazian/BrownianMotion
 VignetteBuilder: knitr
-Suggests: knitr
+Suggests: knitr, testthat
